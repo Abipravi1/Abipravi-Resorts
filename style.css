@@ -15,6 +15,24 @@ body {
     background-color: #F6FFDE;
 }
 
+.headernavbar {
+    display: flex;
+}
+
+.headernavbar img {
+    width: 200px;
+    height: 100px
+}
+
+@media screen and (max-width: 950px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: center;
+        /* flex-wrap: nowrap; */
+    }
+
+}
+
  a {
     font-family: "Agus Sans";
     color: #363188;
@@ -203,6 +221,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
     cursor:pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -228,4 +247,12 @@ body {
     letter-spacing: 1px;
     text-align: left;
 
+}
+
+@media screen and (max-width: 500px) {
+    .section3-image img {
+        width:100%
+    }
+}
+    
 }
