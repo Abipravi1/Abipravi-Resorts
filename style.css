@@ -254,5 +254,51 @@ body {
         width:100%
     }
 }
+
+.section4 {
+    flex-wrap: wrap;
+}
+
+.section4card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+    transition: all 0.3s ease-in-out;
+}
     
+.section4-text {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image100x100 {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .section4card {
+        margin-top: 20px
+    }
+    .imagecard {
+        margin-top: 20px
+    }
+}
+
+.section4card:hover {
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 16%);
 }
