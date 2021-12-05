@@ -10,7 +10,7 @@
 
 
 button {
-border-radius:none 
+    border-radius:none 
 }
 
 body {
@@ -43,7 +43,11 @@ body {
 
 }
 
- a {
+.navbar-light .navbar-nav .nav-link {
+    color:#363188
+}
+
+.nav-link {
     font-family: "Agus Sans";
     color: #363188;
     font-size: 25px;
@@ -388,6 +392,12 @@ a {
 .footer1-section2-1 {
     width: 50%;
     justify-content:center;
+}
+
+.footer1-section2-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer1-section2-2 p {
