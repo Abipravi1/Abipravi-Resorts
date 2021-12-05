@@ -105,7 +105,8 @@ body {
 }
 
 .section {
-    padding: 20px
+    padding: 20px;
+    position: relative;
 }
 
 .section1 h1 {

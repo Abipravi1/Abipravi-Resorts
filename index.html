@@ -9,8 +9,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Abipravi Resorts</title>
 </head>
+
+
 <body>
     <div class="headernavbar">
         <img src="./Assests/logo.png" alt="headerimage" />
@@ -46,7 +50,7 @@
     </div>
     <div class="section1 section">
         <h1 class="title lightgreen">What We Do?</h1>
-        <div class="quote">
+        <div class="quote" data-aos="fade-up">
             <p class="quote_text">People will forget what you said, </p>
             <p class="quote_text">People will forget what you did,</p>
             <p class="quote_text">But people will never forget how you made them feel</p>
@@ -58,14 +62,14 @@
     <div class="section2 section">
         <p class="title pink">Our Star Persons</p>
         <div class="row1">
-            <div class="imagecard h-auto w-300">
+            <div class="imagecard h-auto w-300" data-aos="zoom-in-up" data-aos-duration="1000">
                 <img src="./Assests/james.png" class="image250x250" alt="James Image">
                 <div class="cardbottom">
                     <p class="text lightgreen">James</p>
                     <p class="small text lightblue corner-right">President</p>
                 </div>
             </div>
-            <div class="imagecard h-auto w-300">
+            <div class="imagecard h-auto w-300" data-aos="zoom-in-up" data-aos-duration="1000">
                 <img src="./Assests/robert.png" class="image250x250" alt="James Image">
                 <div class="cardbottom">
                     <p class="text lightgreen">Robert</p>
@@ -74,14 +78,14 @@
             </div>
         </div>
          <div class="row1">
-            <div class="imagecard h-auto w-300">
+            <div class="imagecard h-auto w-300" data-aos="fade-up" data-aos-duration="1000">
                 <img src="./Assests/john.png" class="image250x250" alt="John Image">
                 <div class="cardbottom">
                     <p class="text lightgreen">John</p>
                     <p class="small text lightblue corner-right">Chief marketing director</p>
                 </div>
             </div>
-            <div class="imagecard h-auto w-300">
+            <div class="imagecard h-auto w-300" data-aos="fade-up" data-aos-duration="1000">
                 <img src="./Assests/patricia.png" class="image250x250" alt="Patricia Image">
                 <div class="cardbottom">
                     <p class="text lightgreen">Patricia</p>
@@ -89,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="section3">
+        <div class="section3" data-aos="flip-up" data-aos-duration="1000">
             <div class="section3-content">
                 <h1 class="title lightblue">Praveen Kumar</h1>
                 <p class="small pink section3-content-subtext">Founder and CEO</p>
@@ -100,7 +104,8 @@
             </div>
         </div>
     </div>
-    <div class="section4 row1">
+    <div class="section4 row1" data-aos="fade-up"
+     data-aos-anchor-placement="center-center" data-aos-duration="500">
        <a href="#">
            <div class="section4card">
             <img src="./Assests/icons/membership.png" alt="membership card image" class="image100x100">
@@ -120,7 +125,7 @@
         </div>
        </a>
     </div>
-    <div class="footer-line">
+    <div class="footer-line" data-aos="fade-right" data-aos-duration="1000">
         <p class="footer-line1"/>
         <hr class="footer-line2"/>
     </div>
@@ -148,9 +153,10 @@
                 <a href="#" class="button1 blue rounded1 hover bookhotelbtn">Book Hotel</a>
             </div>
         </div>
-        <div class="footer-line">
-        <p class="footer-line1"/>
-        <hr class="footer-line2"/>
+        <div class="footer-line" data-aos="fade-right" data-aos-duration="1000">
+            <p class="footer-line1"/>
+            <hr class="footer-line2"/>
+        </div>
     </div>
         <div class="footer1-section3">
             <p class="logo-footer">Abipravi Resorts</p>
@@ -166,4 +172,9 @@
         </div>
     </div>
 </body>
+<script>
+    window.addEventListener('load', AOS.refresh)
+    AOS.init();
+</script>
+
 </html>
