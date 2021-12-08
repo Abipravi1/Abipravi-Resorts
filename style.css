@@ -1,444 +1,434 @@
 @font-face {
-    font-family: Agus Sans;
-    src: url(./Assests/fonts/Agus\ Sans\ Regular\ 400.otf);
+  font-family: Agus Sans;
+  src: url(./Assests/fonts/Agus\ Sans\ Regular\ 400.otf);
 }
 
 @font-face {
-    font-family: Belligia Demo;
-    src: url(./Assests/fonts/Belligia\ Demo\ 400.ttf);
+  font-family: Belligia Demo;
+  src: url(./Assests/fonts/Belligia\ Demo\ 400.ttf);
 }
 
-
 button {
-    border-radius:none 
+  border-radius: none;
 }
 
 body {
-    background-color: #F6FFDE;
-    padding: 10px
+  background-color: #f6ffde;
+  padding: 10px;
 }
 
 .navbar {
-    display: flex;
-    /* width: 100%; */
-    align-items: center;
-    background-color: #F6FFDE;
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  background-color: #f6ffde;
 }
 
 .headernavbar {
-    display: flex;
+  display: flex;
 }
 
 .headernavbar img {
-    width: 200px;
-    height: 100px
+  width: 200px;
+  height: 100px;
 }
 
 @media screen and (max-width: 950px) {
-    .navbar {
-        flex-direction: row;
-        justify-content: center;
-        /* flex-wrap: nowrap; */
-    }
-
+  .navbar {
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+  }
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color:#363188
+  color: #363188;
 }
 
 .nav-link {
-    font-family: "Agus Sans";
-    color: #363188;
-    font-size: 25px;
-
+  font-family: "Agus Sans";
+  color: #363188;
+  font-size: 25px;
 }
 
 .menu1 {
-     display: flex;
-     /* width: 100%; */
-     align-items: center;
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
 }
 
 .nav-link a {
-    color: #363188;
-    text-decoration: none;
-    margin-left: 100px;
-    font-family: Agus Sans;
-    font-size: 25px;
+  color: #363188;
+  text-decoration: none;
+  margin-left: 100px;
+  font-family: Agus Sans;
+  font-size: 25px;
 }
 
-.headerimage img{
-    width: 100%;
-    height: 350px
+.headerimage img {
+  width: 100%;
+  height: 350px;
 }
 
 @media screen and (max-width: 400px) {
-    .headerimage img{
-        height: 100px
-    }
-
+  .headerimage img {
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 1115px) {
-    .navbar img  {
-        width:50%
-    }
+  .navbar img {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .navbar img {
-        width: 50%
-    }
+  .navbar img {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .headerimage {
-       display: none
-    }
+  .headerimage {
+    display: none;
+  }
 }
-    
-
 
 .section1 {
-    margin-top:30px
+  margin-top: 30px;
 }
 
 .section {
-    padding: 20px;
-    position: relative;
+  padding: 20px;
+  position: relative;
 }
 
 .section1 h1 {
-    font-family: Arial Bold;
-    font-size: 35px;
+  font-family: Arial Bold;
+  font-size: 35px;
 }
 
 .quote {
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .quote_text {
-    color: #364C0b;
-    font-family: Arial;
-    font-weight: narrow bold;
-    font-style: italic;
-    letter-spacing: -0.02em;
-    font-size: 20px;
-    margin-top: -10px;
+  color: #364c0b;
+  font-family: Arial;
+  font-weight: narrow bold;
+  font-style: italic;
+  letter-spacing: -0.02em;
+  font-size: 20px;
+  margin-top: -10px;
 }
 
-
 .section1End p {
-    font-family: Arial;
-    color: #156fd0;
-    font-size:20px
+  font-family: Arial;
+  color: #156fd0;
+  font-size: 20px;
 }
 
 .title {
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: left;
-    margin: 0px 0 20px 0
-
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  margin: 0px 0 20px 0;
 }
 
 .pink {
-    color: #883157
+  color: #883157;
 }
 
 .row1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .text {
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: left;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
 }
 
 .lightgreen {
-    color: #318862;
+  color: #318862;
 }
 
 .lightblue {
-    color: #156FD0
+  color: #156fd0;
 }
 
 .small {
-    font-size:15px
+  font-size: 15px;
 }
 
 .image250x250 {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
 
 .w-300 {
-    width:300px
+  width: 300px;
 }
 
 .h-auto {
-    height: auto;
+  height: auto;
 }
 
 .imagecard {
-    border-radius: 10px;
-    background: #fff;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-
+  border-radius: 10px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .cardbottom {
-    padding: 10px;
-    justify-content: space-between;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .sm300x250 {
-    width: 300px;
-    height: 250px;
+  width: 300px;
+  height: 250px;
 }
 
 .image300x250 {
-    width: 300px;
-    height: 250px;
+  width: 300px;
+  height: 250px;
 }
 
 .imagecard:hover {
-    box-shadow:0px 0px 5px 2px #888888
+  box-shadow: 0px 0px 5px 2px #888888;
 }
 
 .corner-right {
-    width:50%
+  width: 50%;
 }
 
 .section3 {
-    margin:20px 10px 10px 10px;
-    border-radius: 19px;
-    background: #fff;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    cursor:pointer;
-    transition: all 0.3s ease-in-out;
+  margin: 20px 10px 10px 10px;
+  border-radius: 19px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
-.section3-image img{
-    width: 250px;
+.section3-image img {
+  width: 250px;
 }
 .section3:hover {
-     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
 }
 
 .section3-content {
-    padding: 40px
+  padding: 40px;
 }
 
 .section3-content-subtext {
-    margin-top:-20px
+  margin-top: -20px;
 }
 
 .section3-content-paragraph {
-    font-family: Arial;
-    font-style: italic;
-    letter-spacing: 1px;
-    text-align: left;
-
+  font-family: Arial;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: left;
 }
 
 @media screen and (max-width: 500px) {
-    .section3-image img {
-        width:100%
-    }
+  .section3-image img {
+    width: 100%;
+  }
 }
 
 .section4 {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .section4card {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
-    transition: all 0.3s ease-in-out;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  transition: all 0.3s ease-in-out;
 }
-    
+
 .section4-text {
-    font-family: Arial;
-    font-style: italic;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-top: 10px;
+  font-family: Arial;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .image100x100 {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 @media screen and (max-width: 500px) {
-    .section4card {
-        margin-top: 20px
-    }
-    .imagecard {
-        margin-top: 20px
-    }
+  .section4card {
+    margin-top: 20px;
+  }
+  .imagecard {
+    margin-top: 20px;
+  }
 }
 
 .section4card:hover {
-    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 16%);
+  box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 16%);
 }
 
 .footer-line1 {
-    margin-top:20px;
-    width:100%;
-    content: ' ';
-    border: 3px solid #10d13f;
+  margin-top: 20px;
+  width: 100%;
+  content: " ";
+  border: 3px solid #10d13f;
 }
 
 .footer-line2 {
-    border: 1px solid #02ac8a;
-    margin-top: -10px;
-    width:100%;
-    content: ' ';
+  border: 1px solid #02ac8a;
+  margin-top: -10px;
+  width: 100%;
+  content: " ";
 }
 
 .footer1 {
-    padding:10px
+  padding: 10px;
 }
 
 .footer1-section1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .footer1-text {
-    font-family: Arial;
-    width:50%;
-    font-weight: bold;
-    text-align: left;
-    color: #070707;
+  font-family: Arial;
+  width: 50%;
+  font-weight: bold;
+  text-align: left;
+  color: #070707;
 }
 
 .button1 {
-    padding: 10px;
-    font-family: Arial;
-    font-weight: bold;
-    text-align: left;
-    color: #f6ffde;
-    align-items: center;
-    display: flex;
-    transition:all 0.3s cubic-bezier(1, 0.25, 0, 0.37);
-    justify-content:center
+  padding: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: left;
+  color: #f6ffde;
+  align-items: center;
+  display: flex;
+  transition: all 0.3s cubic-bezier(1, 0.25, 0, 0.37);
+  justify-content: center;
 }
 
 .blue {
-    background-color: #156FD0;
-    border:2px solid #156FD0
+  background-color: #156fd0;
+  border: 2px solid #156fd0;
 }
 
 .rounded1 {
-    border-radius: 50px
+  border-radius: 50px;
 }
 
 .footer1-section1-button {
-    width: 150px;
-    height: 50px
+  width: 150px;
+  height: 50px;
 }
 
 .hover:hover {
-    color: #156FD0;
-    background-color: transparent;
-    border:2px solid #156FD0
+  color: #156fd0;
+  background-color: transparent;
+  border: 2px solid #156fd0;
 }
 
 .footer1-section2 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    padding:50px;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px;
+  justify-content: space-around;
 }
 
 .footer1-section2-1 {
-    width: 50%;
-    justify-content:center;
+  width: 50%;
+  justify-content: center;
 }
 
 .footer1-section2-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer1-section2-2 p {
-    color: #747474
+  color: #747474;
 }
 
 .bookhotelbtn {
-    width: 150px;
-    font-size:15px
+  width: 150px;
+  font-size: 15px;
 }
 
 .footer1-section2-1-list {
-    list-style-type: none;
-    text-decoration: none;
-    margin-top:10px;
-    font-family: Arial;
-    font-weight: bold;
-    font-style: italic;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .footer1-section3 {
-    margin-top: 40px;
-    display: flex;
-    width:100%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
-.footer-logo{
-   width: 30px;
-   height: 30px;
-} 
+.footer-logo {
+  width: 30px;
+  height: 30px;
+}
 
-.logo-footer{
-    font-family: "Belligia Demo";
-    font-weight: normal;
-    font-size: 17px;
-    letter-spacing: 0.39em;
-    text-align: left;
-    color: #156fd0;
-    left:0;
+.logo-footer {
+  font-family: "Belligia Demo";
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 0.39em;
+  text-align: left;
+  color: #156fd0;
+  left: 0;
 }

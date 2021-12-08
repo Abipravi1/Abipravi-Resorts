@@ -1,0 +1,205 @@
+@font-face {
+  font-family: Agus Sans;
+  src: url(./Assests/fonts/Agus\ Sans\ Regular\ 400.otf);
+}
+
+@font-face {
+  font-family: Belligia Demo;
+  src: url(./Assests/fonts/Belligia\ Demo\ 400.ttf);
+}
+
+button {
+  border-radius: none;
+}
+
+body {
+  background-color: #f6ffde;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  background-color: #f6ffde;
+}
+
+.headernavbar {
+  display: flex;
+}
+
+.headernavbar img {
+  width: 200px;
+  height: 100px;
+}
+
+@media screen and (max-width: 950px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #363188;
+}
+
+.nav-link {
+  font-family: "Agus Sans";
+  color: #363188;
+  font-size: 25px;
+}
+
+.menu1 {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+}
+
+.nav-link a {
+  color: #363188;
+  text-decoration: none;
+  margin-left: 100px;
+  font-family: Agus Sans;
+  font-size: 25px;
+}
+
+.headerimage img {
+  width: 100%;
+  height: 350px;
+}
+
+@media screen and (max-width: 400px) {
+  .headerimage img {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .navbar img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar img {
+    width: 50%;
+  }
+}
+
+.aboutus_section1 {
+  width: 100%;
+  padding: 25px;
+  background: #ebeee467;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.section1_part1 {
+  width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+  .section1_part1 {
+    width: 100%;
+  }
+}
+  
+
+.section1_part1 p:nth-child(1) {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+  color: #156fd0;
+}
+
+.section1_part1 p:nth-child(2) {
+  width: 40%;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  color: #364c0b;
+}
+
+@media screen and (max-width: 800px) {
+  .section1_part1 p:nth-child(2) {
+    width: 100%;
+  }
+}
+
+.section1_part2 {
+  width: 25%;
+}
+
+.section1_part2 img {
+  width: 100%;
+}
+
+.section2 {
+  padding: 50px;
+}
+
+.section2 P {
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: left;
+  color: #070707;
+}
+
+.section2_part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section2_part1 p {
+	width: 70%;
+	font-size:20px;
+}
+
+.section2_part1 img {
+  width: 200px;
+  height: 250px;
+}
+
+.section2_part2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section2_part2 p {
+  width: 70%;
+  font-size: 20px;
+}
+
+.section2_part2 img {
+  width: 200px;
+  height: 250px;
+}
+
+.section3 p:nth-child(1) {
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 50px;
+  line-height: 100px;
+  text-align: left;
+  color: #07b566;
+
+}
