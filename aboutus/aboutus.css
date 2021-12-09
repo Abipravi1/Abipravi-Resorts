@@ -95,7 +95,6 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   flex-direction: row;
 }
 
@@ -108,7 +107,12 @@ body {
     width: 100%;
   }
 }
-  
+
+@media screen and (max-width: 700px) {
+  .aboutus_section1 {
+    flex-wrap: wrap;
+  }
+}
 
 .section1_part1 p:nth-child(1) {
   font-family: Arial;
@@ -162,12 +166,19 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  transition: all 0.3s ease-in-out;
   flex-wrap: wrap;
 }
 
+.section2_part1:hover {
+  box-shadow: 0px 0px 6px 1px #00000029;
+  cursor: auto;
+  border-radius: 20px;
+}
+
 .section2_part1 p {
-	width: 70%;
-	font-size:20px;
+  width: 70%;
+  font-size: 20px;
 }
 
 .section2_part1 img {
@@ -181,6 +192,13 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  transition: all 0.3s ease-in-out;
+}
+
+.section2_part2:hover {
+  box-shadow: 0px 0px 6px 1px #00000029;
+  cursor: auto;
+  border-radius: 20px;
 }
 
 .section2_part2 p {
@@ -193,13 +211,190 @@ body {
   height: 250px;
 }
 
+.section3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .section3 p:nth-child(1) {
   font-family: Arial;
   font-weight: bold;
   font-style: italic;
-  font-size: 50px;
+  font-size: 35px;
   line-height: 100px;
   text-align: left;
   color: #07b566;
+}
 
+.section3_1 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  align-items: center;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 6px 0px #000000d7;
+  cursor: auto;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.card p {
+  margin: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  color: #156fd0;
+}
+
+.section3_2 {
+  margin-top: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-line1 {
+  margin-top: 20px;
+  width: 100%;
+  content: " ";
+  border: 3px solid #10d13f;
+}
+
+.footer-line2 {
+  border: 1px solid #02ac8a;
+  margin-top: -10px;
+  width: 100%;
+  content: " ";
+}
+
+.footer1 {
+  padding: 10px;
+}
+
+.footer1-section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer1-text {
+  font-family: Arial;
+  width: 50%;
+  font-weight: bold;
+  text-align: left;
+  color: #070707;
+}
+
+.button1 {
+  padding: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: left;
+  color: #f6ffde;
+  align-items: center;
+  display: flex;
+  transition: all 0.3s cubic-bezier(1, 0.25, 0, 0.37);
+  justify-content: center;
+}
+
+.blue {
+  background-color: #156fd0;
+  border: 2px solid #156fd0;
+}
+
+.rounded1 {
+  border-radius: 50px;
+}
+
+.footer1-section1-button {
+  width: 150px;
+  height: 50px;
+}
+
+.hover:hover {
+  color: #156fd0;
+  background-color: transparent;
+  border: 2px solid #156fd0;
+}
+
+.footer1-section2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px;
+  justify-content: space-around;
+}
+
+.footer1-section2-1 {
+  width: 50%;
+  justify-content: center;
+}
+
+.footer1-section2-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer1-section2-2 p {
+  color: #747474;
+}
+
+.bookhotelbtn {
+  width: 150px;
+  font-size: 15px;
+}
+
+.footer1-section2-1-list {
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.footer1-section3 {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.footer-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-footer {
+  font-family: "Belligia Demo";
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 0.39em;
+  text-align: left;
+  color: #156fd0;
+  left: 0;
 }
