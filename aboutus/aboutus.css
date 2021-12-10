@@ -196,9 +196,9 @@ body {
 }
 
 .section2_part2:hover {
-  box-shadow: 0px 0px 6px 1px #00000029;
+  box-shadow: 0px 0px 11px 0px #000000b5;
   cursor: auto;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 .section2_part2 p {
