@@ -242,7 +242,10 @@ body {
   height: 300px;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .card1 img {
