@@ -237,7 +237,7 @@ body {
   justify-content: space-evenly;
 }
 
-.card {
+.card1 {
   width: 250px;
   height: 300px;
   transition: all 0.3s ease-in-out;
@@ -245,20 +245,20 @@ body {
   align-items: center;
 }
 
-.card img {
+.card1 img {
   width: 250px;
   height: 250px;
   transition: all 0.3s ease-in-out;
 }
 
-.card:hover {
+.card1:hover {
   box-shadow: 1px 1px 6px 0px #000000d7;
   cursor: auto;
   border-radius: 20px;
   margin-top: 5px;
 }
 
-.card p {
+.card1 p {
   margin: 20px;
   font-family: Arial;
   font-weight: bold;
