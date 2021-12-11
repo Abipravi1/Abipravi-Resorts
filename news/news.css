@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Agus Sans;
+  src: url(./Assests/fonts/Agus\ Sans\ Regular\ 400.otf);
+}
+
+@font-face {
+  font-family: Belligia Demo;
+  src: url(./Assests/fonts/Belligia\ Demo\ 400.ttf);
+}
+
+button {
+  border-radius: none;
+}
+
+body {
+  background-color: #f6ffde;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  background-color: #f6ffde;
+}
+
+.headernavbar {
+  display: flex;
+}
+
+.headernavbar img {
+  width: 200px;
+  height: 100px;
+}
+
+@media screen and (max-width: 950px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #363188;
+}
+
+.nav-link {
+  font-family: "Agus Sans";
+  color: #363188;
+  font-size: 25px;
+}
+
+.menu1 {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+}
+
+.nav-link a {
+  color: #363188;
+  text-decoration: none;
+  margin-left: 100px;
+  font-family: Agus Sans;
+  font-size: 25px;
+}
