@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Agus Sans;
+    src: url(./Assests/fonts/Agus\ Sans\ Regular\ 400.otf);
+}
+
+@font-face {
+    font-family: Belligia Demo;
+    src: url(./Assests/fonts/Belligia\ Demo\ 400.ttf);
+}
+
+button {
+    border-radius: none;
+}
+
+body {
+    background-color: #f6ffde;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: #f6ffde; */
+}
+
+.headernavbar {
+    display: flex;
+}
+
+.headernavbar img {
+    width: 200px;
+    height: 100px;
+}
+
+@media screen and (max-width: 950px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: center;
+        /* flex-wrap: nowrap; */
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #363188;
+}
+
+.nav-link {
+    font-family: "Agus Sans";
+    color: #363188;
+    font-size: 25px;
+}
+
+.menu1 {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+}
+
+.nav-link a {
+    color: #363188;
+    text-decoration: none;
+    margin-left: 100px;
+    font-family: Agus Sans;
+    font-size: 25px;
+}
+
+.section1 {
+    margin-left: 10px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.section1 p {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #156fd0;
+}
+
+.s1image1 {
+    width: 300px;
+    grid-area: s1;
+    height: 300px
+}
+.s1image2 {
+    width: 300px;
+    grid-area: s3
+}
+.s1image3 {
+    width: 400px;
+    grid-area: s2;
+
+}
+
+.section1_grid {
+    display: grid;
+    grid-template-areas: "s1 s2"
+                        "s3 s2";
+    grid-gap: 10px;
+}
