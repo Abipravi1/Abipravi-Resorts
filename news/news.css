@@ -13,15 +13,16 @@ button {
 }
 
 body {
-  background-color: #f6ffde;
+  /* background-color: #f6ffde; */
   padding: 10px;
+  width: 100%;
 }
 
 .navbar {
   display: flex;
-  /* width: 100%; */
+  width: 100%;
   align-items: center;
-  background-color: #f6ffde;
+  /* background-color: #f6ffde; */
 }
 
 .headernavbar {
@@ -77,9 +78,9 @@ body {
 .section1 p {
   width: 40%;
   height: auto;
-  font-family: FabfeltScript;
-  font-weight: bold;
   font-size: 30px;
+  font-family: Latha;
+  font-weight: normal;
   text-align: left;
   color: #156fd0;
 }
@@ -110,13 +111,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  transition: 0.2s all ease-out;
-}
-
-.section2:hover {
-  box-shadow: 0px 0px 10px #00000094;
-  padding: 20px;
-  border: 5px solid #2a71d0;
+  /* transition: 0.2s all ease-out; */
 }
 
 .section2 p {
@@ -150,4 +145,212 @@ body {
   .section2 img {
     width: 50%;
   }
+}
+
+.section2_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  width: 100%;
+  margin-top:20px;
+}
+
+.part1_section2_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 30%;
+}
+
+.part1_section2_1 img {
+  width: 100%
+}
+
+.part1_section2_1 p{
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  line-height: 30px;
+  text-align: left;
+  color: #131313;
+  margin-top: 10px
+}
+
+.section3 {
+  padding: 10px;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 p {
+  font-family: Bulgatti;
+  /* margin: 50px 0 0 0; */
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 0.01em;
+  color: #131313;
+}
+
+.story1 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.story1 img {
+  padding: 10px;
+  border: 4px solid blue;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.story1 p {
+  font-family: Arial;
+  width: 80%;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: left;
+  color: #07b566;
+}
+
+.story2 img {
+	width: 100px
+}
+
+.footer-line1 {
+  margin-top: 20px;
+  width: 100%;
+  content: " ";
+  border: 3px solid #10d13f;
+}
+
+.footer-line2 {
+  border: 1px solid #02ac8a;
+  margin-top: -10px;
+  width: 100%;
+  content: " ";
+}
+
+.footer1 {
+  padding: 10px;
+}
+
+.footer1-section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer1-text {
+  font-family: Arial;
+  width: 50%;
+  font-weight: bold;
+  text-align: left;
+  color: #070707;
+}
+
+.button1 {
+  padding: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: left;
+  color: #f6ffde;
+  align-items: center;
+  display: flex;
+  transition: all 0.3s cubic-bezier(1, 0.25, 0, 0.37);
+  justify-content: center;
+}
+
+.blue {
+  background-color: #156fd0;
+  border: 2px solid #156fd0;
+}
+
+.rounded1 {
+  border-radius: 50px;
+}
+
+.footer1-section1-button {
+  width: 150px;
+  height: 50px;
+}
+
+.hover:hover {
+  color: #156fd0;
+  background-color: transparent;
+  border: 2px solid #156fd0;
+}
+
+.footer1-section2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px;
+  justify-content: space-around;
+}
+
+.footer1-section2-1 {
+  width: 50%;
+  justify-content: center;
+}
+
+.footer1-section2-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer1-section2-2 p {
+  color: #747474;
+}
+
+.bookhotelbtn {
+  width: 150px;
+  font-size: 15px;
+}
+
+.footer1-section2-1-list {
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.footer1-section3 {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.footer-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-footer {
+  font-family: "Belligia Demo";
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 0.39em;
+  text-align: left;
+  color: #156fd0;
+  left: 0;
 }
