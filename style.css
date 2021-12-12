@@ -295,6 +295,10 @@ a {
   height: 100px;
 }
 
+.image100x100p {
+  font-size: 70px
+}
+
 @media screen and (max-width: 500px) {
   .section4card {
     margin-top: 20px;

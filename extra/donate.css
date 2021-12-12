@@ -1,0 +1,434 @@
+.donateus {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    place-items: center;
+}
+
+.donateus h3 {
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    color: #5500f3;
+    margin-left: 20px;
+}
+
+.bodycontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.text__inputs {
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    height: 200px;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-evenly;
+}
+
+.text__inputs input {
+    margin-top: 10px;
+    padding: 5px;
+    border: solid;
+    border-width: thin;
+    border-color: #5c16fe;
+    outline: none;
+    width: 50%;
+}
+
+.text__inputs input:focus {
+    padding: 6px;
+    border: 1px solid black
+}
+
+.imagesource img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 35%;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+.popup .content {
+    margin-top: 10px;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.popup .close:hover {
+    color: #06d85f;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+}
+
+@media (max-width: 490px) {
+    .popup {
+        align-items: center;
+        text-align: center;
+    }
+
+    .popup h2 {
+        width: 50%;
+    }
+
+    .popup .content {
+        width: 50%;
+    }
+}
+
+.overlay1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay1:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup1 {
+    margin: 70px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+
+.popup1 h2 {
+    font-size: 16px;
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup1 .close1 {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup1 .close1:hover {
+    color: #06d85f;
+}
+
+.popup1 .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup1 {
+        width: 70%;
+    }
+}
+
+@media (max-width: 490px) {
+    .popup1 {
+        align-items: center;
+        text-align: center;
+    }
+
+    .popup1 h2 {
+        width: 50%;
+    }
+
+    .popup1 .content {
+        width: 50%;
+    }
+}
+
+.button__donate {
+    border: none;
+    height: 90px;
+    margin-top: 10px;
+    background: none;
+    outline: none;
+}
+
+.footer1 {
+    padding: 10px;
+}
+
+.footer1-section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer1-text {
+    font-family: Arial;
+    width: 50%;
+    font-weight: bold;
+    text-align: left;
+    color: #070707;
+}
+
+.button1 {
+    padding: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
+    color: #f6ffde;
+    align-items: center;
+    display: flex;
+    transition: all 0.3s cubic-bezier(1, 0.25, 0, 0.37);
+    justify-content: center;
+}
+
+.blue {
+    background-color: #156fd0;
+    border: 2px solid #156fd0;
+}
+
+.rounded1 {
+    border-radius: 50px;
+}
+
+.footer1-section1-button {
+    width: 150px;
+    height: 50px;
+}
+
+.hover:hover {
+    color: #156fd0;
+    background-color: transparent;
+    border: 2px solid #156fd0;
+}
+
+.footer1-section2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.footer1-section2-1 {
+    width: 50%;
+    justify-content: center;
+}
+
+.footer1-section2-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer1-section2-2 p {
+    color: #747474;
+}
+
+.bookhotelbtn {
+    width: 150px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer1-section2-1-list {
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footer1-section3 {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footer-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-footer {
+    font-family: "Belligia Demo";
+    font-weight: normal;
+    font-size: 17px;
+    letter-spacing: 0.39em;
+    text-align: left;
+    color: #156fd0;
+    left: 0;
+}
+
+
+
+.gototop {
+    position: fixed;
+    bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    right: 25px;
+    z-index: 99;
+    outline: invert;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 4px;
+}
+
+.footer-line1 {
+    margin-top: 20px;
+    width: 100%;
+    content: " ";
+    border: 3px solid #10d13f;
+}
+
+.footer-line2 {
+    border: 1px solid #02ac8a;
+    margin-top: -10px;
+    width: 100%;
+    content: " ";
+}
+
+@font-face {
+    font-family: Agus Sans;
+    src: url(./Assests/fonts/Agus\ Sans\ Regular\ 400.otf);
+}
+
+@font-face {
+    font-family: Belligia Demo;
+    src: url(./Assests/fonts/Belligia\ Demo\ 400.ttf);
+}
+
+button {
+    border-radius: none;
+}
+
+body {
+    background-color: #f6ffde;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: #f6ffde; */
+}
+
+.headernavbar {
+    display: flex;
+}
+
+.headernavbar img {
+    width: 200px;
+    height: 100px;
+}
+
+@media screen and (max-width: 950px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: center;
+        /* flex-wrap: nowrap; */
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #363188;
+}
+
+.nav-link {
+    font-family: "Agus Sans";
+    color: #363188;
+    font-size: 25px;
+}
+
+.menu1 {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+}
+
+.nav-link a {
+    color: #363188;
+    text-decoration: none;
+    margin-left: 100px;
+    font-family: Agus Sans;
+    font-size: 25px;
+}
